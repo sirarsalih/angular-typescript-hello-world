@@ -1,0 +1,6 @@
+/.idea
+/app/bootstrapper/*.js
+/app/mainFeature/*.html
+/app/mainFeature/*.js
+/app/mainFeature/*.map
+/app/spec/coverage

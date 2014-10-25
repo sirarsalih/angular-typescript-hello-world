@@ -1,0 +1,8 @@
+{ 
+  "dependencies": {
+	"typescript": "^1.0",
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.1.5",
+    "karma-coverage": "^0.2.6"
+  }
+}

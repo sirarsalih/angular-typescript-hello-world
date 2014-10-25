@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="../scripts/angular.min.js"></script>
+    <script src="mainFeature/mainDirective.js"></script>
+    <script src="mainFeature/mainSvc.js"></script>
+    <script src="mainFeature/mainCtrl.js"></script>
+    <script src="bootstrapper/bootstrapper.js"></script>
+</head>
+<body>
+<h2>AngularJS TypeScript App</h2>
+<div ng-controller="MainCtrl as mc">
+    {{mc.message}}
+</div>
+<main-Directive></main-Directive>
+</body>
+</html>
